@@ -1,0 +1,38 @@
+.header {
+  background: #4e4e4e;
+  height: 60px;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.menu {
+  list-style: none;
+  color: #f1f1f1;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.menu a:link,
+.menu a:visited,
+.menu a:active {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-left: 40px;
+}
+.contact {
+  cursor: not-allowed;
+}

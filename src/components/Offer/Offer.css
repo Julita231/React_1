@@ -1,0 +1,20 @@
+.offer {
+  background: #405d78;
+}
+
+.offer-title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: space-around;
+  padding-left: 175px;
+  padding-right: 50px;
+}
