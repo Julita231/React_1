@@ -1,0 +1,32 @@
+.people img {
+  border-radius: 50%;
+  height: 197px;
+  width: 197px;
+  object-fit: cover;
+}
+
+.people {
+  gap: 60px;
+}
+.workers {
+  padding-top: 40px;
+  color: #152d41;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.people-description {
+  font-size: 18px;
+}
+.ppl-name {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.people:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+.people:nth-of-type(even) .people-description {
+  text-align: right;
+}
