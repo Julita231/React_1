@@ -1,19 +1,6 @@
 import "./AboutUs.css";
 import workersArr from "../../data/workers";
-
-function Person({ name, department, paragraph, img }) {
-  return (
-    <div className="people flex">
-      <img src={img} alt="ppl1" />
-      <div className="people-description">
-        <p className="ppl-name">
-          {name} [ {department} ]
-        </p>
-        <p>{paragraph}</p>
-      </div>
-    </div>
-  );
-}
+import Person from "./Person/Person";
 
 function AboutUs() {
   return (
@@ -23,6 +10,7 @@ function AboutUs() {
         {workersArr.map((person) => {
           return (
             <Person
+              person={person}
               name={person.name}
               department={person.department}
               paragraph={person.paragraph}
