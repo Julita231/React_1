@@ -8,8 +8,8 @@ function Offer() {
       <div className="container">
         <h2 className="offer-title">Czym zajmuje się nasza firma?</h2>
         <div className="box flex">
-          {offersArr.map((offer) => {
-            return <BoxItem offer={offer} />;
+          {offersArr.map((offer, index) => {
+            return <BoxItem offer={offer} key={index} />;
           })}
         </div>
       </div>
